@@ -188,3 +188,95 @@ main {
 .resume {
     margin-top: 130px ;
 }
+.resume-content {
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+
+.resume .title {
+ font-weight: 700;
+ font-size: 25px;
+ color: #474747;
+ margin-bottom: 10px;
+
+}
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+color: #757575;
+}
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ 
+.dwn-btn {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+/* Contact Styles */
+.contact .section-title {
+text-align:left;
+}
+
+.contact {
+display: flex;
+flex-wrap: 117px;
+background-color: rgb(236, 216, 255);
+padding: 130px 200px;
+
+}
+.footer-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Submit {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: 0;
+    font-size: 30px;
+    padding: 5px 15px;
+}
+
+.Submit:hover {
+    color: rgb(246, 246, 246);
+    background-color: rgb(88, 8, 126);
+}
+
+.contact input[type="text"], input[type="email"], textarea {
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact form input {
+    margin-top: 20px;
+}
+
+.xyz {
+    color: #757575;
+}
+
+.footer  {
+background-color: black;
+}
+
+.footer p {
+   color: white ;
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px ;
+}
